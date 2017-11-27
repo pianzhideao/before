@@ -1,0 +1,79 @@
+*{font-size: 14px;}
+ul{margin:0;}
+.wholepage{width:778px;
+           margin:auto;}
+.header{background-image:url(../images/bg_header.jpg);
+        background-repeat:no-repeat;
+        width:100%;
+        height:144px;
+       }
+.menu{background-image: url(../images/bg_menu.jpg);
+      width: 100%;
+      background-repeat:repeat;
+      height:24px;
+      }
+.menu ul{list-style:none;float:right;line-height:24px;} 
+.menu li{float:left;}
+.menu li span{margin:0 5px 0 5px;}    
+.menu a
+{
+    text-decoration: none;
+    color: #003366;
+}
+.menu a:hover
+{
+    color: #06c;
+    text-decoration: underline;
+}
+.left_content{width:192px;float:left;}
+.left_top{width: 192px;
+          height: 155px;
+          padding-top:45px;
+          background-image:url(../images/bg_left_top.jpg);
+          }
+.textbox{margin-top: 4px;width:80px;}
+
+.button{margin-top: 6px;
+        margin-bottom: 8px;
+       }
+.left_top ul{list-style:none;}
+.left_top a{text-decoration: none;
+            color: #3399ff;
+            }
+.left_bottom{margin-top:20px;
+             width: 192px;
+             height: 178px;
+             padding-top: 40px;
+             background-image: url(../images/bg_left_bottom.gif);
+            }
+.left_bottom ul{list-style-image: url(../images/list_item.gif);line-height: 23px;}            
+.right_content{width: 586px;
+               height: 438px;
+               float: left;
+              }
+.right_top{width: 100%;line-height: 48px;}
+.right_bottom{width:100%; 
+              float:right; 
+              height:385px; 
+              font-size:10pt;
+              background-color:#f3fbfe;}
+.good{width:100%;clear:both;margin-top:20px;}
+.goodimg{width:150px;height:150px;float:left;padding:10px;}  
+.gooddetail{width:414px;float:left;}
+.goodname{text-align:center;
+          color: #3366ff; 
+          font-size:18px;
+          font-weight:700}
+.goodprice span{float:right;margin-right:20px;}
+.goodprice span b{color: #ff0066}         
+.footer_image{width: 100%;
+              clear: both;
+              height: 24px;
+              background-image: url(../images/bg_footer.gif);
+              background-repeat:repeat;
+}
+.footer{text-align:center;
+        width: 100%;
+        height: 24px;
+        padding-top: 10px;
+       }
